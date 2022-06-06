@@ -10,7 +10,7 @@ def generate_quantile_quantile_plot(observed_tvalues, permutation_tvalues, n_sub
         - compute an association test for each edge of the connectome by fitting a multiple regression model with the phenotype of interest as the outcome variable and edge connectivity weight as the predictor of interest
         - any confound variables that we wish to control for should be included in the edgewise multiple regression models above
         - the observed p-values from the steps above are then negative-log transformed, and then sorted from smallest to largest. 
-        - the rank-ordered negative-log transformed p-values are plotted versus negative-log transformed linearly scaled points on the x-axis \
+        - the rank-ordered negative-log transformed p-values are plotted versus negative-log transformed linearly scaled points on the x-axis 
           - ie: the x-y coordinates for the plotted points are (-log(1), -log(largest p-value)), (-log(n-1/n), -log(2nd largest p-value)), … (-log(1/n), -log(smallest p-value))
         - the corresponding null distribution can either be generated theoretically or using permutation t_values using the NCA function network_contingency_analysis
         
