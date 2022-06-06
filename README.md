@@ -5,11 +5,8 @@
 
 Correspondence:
 
-Chandra Sripada
-
-Department of Psychiatry
-
-University of Michigan
-
-sripada@umich.edu
+Chandra Sripada  
+Department of Psychiatry  
+University of Michigan  
+sripada@umich.edu  
 
