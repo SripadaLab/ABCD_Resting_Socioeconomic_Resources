@@ -3,8 +3,7 @@
 *Chandra Sripada MD, PhD, Arianna Gard PhD, Mike Angstadt MS, Aman Taxali MS, Tristan Greathouse BS, Katherine McCurry PhD, Luke W. Hyde PhD, Alexander Weigard PhD, Peter Walczyk MS, Mary Heitzeg PhD*
 
 
-Correspondence:
-
+Correspondence:  
 Chandra Sripada  
 Department of Psychiatry  
 University of Michigan  
