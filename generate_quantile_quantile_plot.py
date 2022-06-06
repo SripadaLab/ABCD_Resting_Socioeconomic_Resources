@@ -25,6 +25,11 @@ def generate_quantile_quantile_plot(observed_tvalues, permutation_tvalues, n_sub
         Number of subjects used in edgewise association tests
     n_OLS_params: integer
         Total number of predictors used in edgewise association tests (should be: intercept (1) + phenotype of interest (1) + number of confound variables)
+        
+    Returns
+    -------
+    None:
+        Outputs matplotlib plot to stdout. Best to call this function from a jupyter notebook or IDE
     """
     
     def t_to_p(t, n_subjects, n_params):
@@ -65,3 +70,5 @@ def generate_quantile_quantile_plot(observed_tvalues, permutation_tvalues, n_sub
     plt.gca().spines['top'].set_visible(False)
     plt.gca().spines['right'].set_visible(False)
     plt.show()
+    
+    return None
