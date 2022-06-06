@@ -72,6 +72,9 @@ def network_contingency_analysis(edges, phenotype, covariates, n_perms, t_thresh
         
     ndarray :
         1-dim numpy array of shape (number_of_cells, ) with FDR corrected p-values for observed cell-wise summary statistics versus null/chance
+	
+    ndarray :
+    	1-dim numpy array of shape (number_of_cells, ) where each element is a tuple that uniquely identifies each cell (cell id tuple corresponds to network indices that make up the cell)
     """
 
     
