@@ -4,7 +4,12 @@
 
 
 Correspondence:
+
 Chandra Sripada
+
 Department of Psychiatry
+
 University of Michigan
+
 sripada@umich.edu
+
