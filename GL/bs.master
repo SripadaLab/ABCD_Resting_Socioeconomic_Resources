@@ -1,0 +1,24 @@
+#!/bin/bash -l
+####  Begin Slurm preamble
+
+#SBATCH --job-name=boots
+#SBATCH --mail-type=FAIL
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=14336m
+#SBATCH --time=4:00:00
+#SBATCH --account=sripada1
+#SBATCH -p standard
+
+####  End Slurm preamble
+module load matlab
+
+cd /home/mangstad/work/ser
+echo "Working from $PWD"
+
+matlab -nodisplay <<EOF
+SEED=${SEED};
+bootstrap_greatlakes
+exit
+EOF
